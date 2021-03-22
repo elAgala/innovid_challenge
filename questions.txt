@@ -1,0 +1,14 @@
+1. Even though the API was not so difficult to implement, I spent a while planning the best
+way to make the code as readable as possible.
+
+2. The Node.js API took me nearly an hour and the Vue.js client almost half an hour.
+
+3. Maybe I would have tried to show not just the daily forecast but also the hourly. Another
+good idea would be if you could select a specific date with a date-picker and search the 
+forecast of it.
+
+4. I could use Unit Testing for both server and client side using some tools as Jest or Mocha.Some of the tests could be:
+	- Searching for an unsupported city responds with an error.
+	- Searching for a supported city responds with the daily forecast.
+	- If forecastdays is not on the 1-3 range, throws an error.
+	- If city is an empty string or forescastdays is not defined, throws an error.
