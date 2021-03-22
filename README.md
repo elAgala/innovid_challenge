@@ -1,2 +1,2 @@
-# innovid_challenge
+# Innovid Challenge
 Innovid CSE: Home Task Backend
